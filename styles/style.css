@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+:root {
+  --cian: hsl(193, 38%, 86%);
+  --primary: hsl(150, 100%, 66%);
+  --shadow: hsla(150, 100%, 66%, 0.725);
+  --neutralBlue: rgb(50 58 72);
+  --neutralGray: rgb(34 38 49);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Manrope, sans-serif;
+  font-weight: 800;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--neutralGray);
+}
+
+main {
+  margin: auto;
+  border-radius: 0.8rem;
+  background-color: var(--neutralBlue);
+  min-width: 500px;
+  width: 50%;
+  padding: 3.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+}
+
+main span {
+  color: var(--primary);
+}
+
+main p {
+  display: flex;
+  align-items: center;
+  color: var(--cian);
+  text-align: center;
+  font-size: 28px;
+  min-height: 300px;
+}
+
+main button {
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 75px;
+  width: 75px;
+  position: absolute;
+  top: calc(100% - 37.5px);
+  transform-origin: 50% 50%;
+  margin: auto;
+  background-color: var(--primary);
+}
+main button:hover {
+  background-color: hsl(150, 86%, 54%);
+  box-shadow: 0px 0px 30px 7px var(--shadow), 0px 0px 25px 4px var(--shadow),
+    0px 0px 15px 1px var(--shadow);
+}
+@media screen and (max-width: 550px) {
+  main {
+    width: 90%;
+    min-width: 250px;
+    max-width: 420px;
+  }
+  main > img {
+    content: url("../img/pattern-divider-mobile.svg");
+  }
+}

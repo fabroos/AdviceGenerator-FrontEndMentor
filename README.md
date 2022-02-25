@@ -25,8 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/fabroos/AdviceGenerator-FrontEndMentor)
 
 ### Built with
 
@@ -39,4 +38,5 @@ Users should be able to:
 
 - Website - [Add your name here](https:/github.com/fabroos.com)
 - Frontend Mentor - [@fabroos](https://www.frontendmentor.io/profile/fabroos)
+
 # AdviceGenerator-FrontEndMentor
