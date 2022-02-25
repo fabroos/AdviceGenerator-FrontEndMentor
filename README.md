@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot](./screenshot.jpg)
+![screenshot](https://github.com/fabroos/AdviceGenerator-FrontEndMentor/blob/main/screenshot.png)
 
 ### Links
 
